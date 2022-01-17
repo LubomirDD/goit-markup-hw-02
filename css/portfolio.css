@@ -79,10 +79,65 @@ li {
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: #212121;
 }
 .filters-button:hover,
 .filters-button:focus {
   color: white;
   background-color: var(--accent-color);
+}
+
+/* Продукты/PRODUCTS------------------------------------------------ */
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.product {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Футер/FOOTER--------------------------------------------- */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-part-3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }

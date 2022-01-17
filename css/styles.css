@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 p {
@@ -168,6 +169,7 @@ li {
 }
 
 .logo-part-3 {
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: calc(31 / 26);
